@@ -10,12 +10,12 @@ var T = new Twit(config);
 
 
 
-setInterval(tweetATweet, 9000);
+setInterval(tweetATweet, 900000);
 //
 //  tweet 'hello again...'
 //
 function tweetATweet() {
-T.post('statuses/update', { status: 'I made a twitter bot that tweets a message like this and a number like ' + getRandomInt(99) }, function(err, data, response) {
+T.post('statuses/update', { status: 'I made another twitter bot that tweets a message like this and a number like ' + getRandomInt(99) }, function(err, data, response) {
   console.log(data)
   
 })
