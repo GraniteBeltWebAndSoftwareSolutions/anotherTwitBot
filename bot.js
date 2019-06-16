@@ -10,7 +10,7 @@ var T = new Twit(config);
 
 
 
-setInterval(tweetATweet, 900000);
+setInterval(tweetATweet, 90000);
 //
 //  tweet 'hello again...'
 //
