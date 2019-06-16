@@ -10,12 +10,12 @@ var T = new Twit(config);
 
 
 
-setInterval(tweetATweet, 1800000);
+setInterval(tweetATweet, 9000);
 //
 //  tweet 'hello again...'
 //
 function tweetATweet() {
-T.post('statuses/update', { status: 'Hello from node bot.js running on Heroku...with a Random number of ' + getRandomInt(99) }, function(err, data, response) {
+T.post('statuses/update', { status: 'Hello from Heroku my favourite number is ' + getRandomInt(99) }, function(err, data, response) {
   console.log(data)
   
 })
