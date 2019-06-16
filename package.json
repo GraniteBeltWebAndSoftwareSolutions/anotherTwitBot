@@ -1,0 +1,15 @@
+{
+  "name": "nodetwitterbot",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "twit": "2.2.11"
+  },
+  "author": "Jason Flemming",
+  "license": "ISC",
+  "main": "bot.js",
+  "devDependencies": {},
+  "description": ""
+}
